@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bradworthy-inn.vercel.app/sitemap.xml
