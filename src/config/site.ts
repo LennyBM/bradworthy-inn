@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "bradworthy-inn",
   "name": "The Bradworthy Inn",
   "shortName": "Bradworthy Inn",
   "tagline": "A family-run 16th-century coaching inn on the village square in North Devon",
-  "intro": "Traditionally styled restaurant seating around 60 diners, plus dog-friendly dining in the bar. Home-cooked food freshly prepared to order, with a children's menu and a well-regarded Sunday carvery. Fo",
+  "intro": "Traditionally styled restaurant seating around 60 diners, plus dog-friendly dining in the bar. Home-cooked food freshly prepared to order, with a children's menu and a well-regarded Sunday carvery.",
   "type": "Inn",
   "established": "16th century",
   "siteUrl": "https://bradworthy-inn.vercel.app",
@@ -278,8 +278,6 @@ export const site: SiteConfig = {
     "img-02.jpg",
     "img-03.jpg",
     "img-04.jpg",
-    "img-05.jpg",
-    "img-06.jpg",
     "img-07.jpg",
     "img-08.jpg",
     "img-09.jpg",
@@ -287,7 +285,6 @@ export const site: SiteConfig = {
     "img-11.jpg",
     "img-12.jpg",
     "img-13.jpg",
-    "img-14.jpg",
     "img-15.jpg",
     "img-16.jpg",
     "img-17.jpg",
@@ -302,10 +299,33 @@ export const site: SiteConfig = {
     "img-02.jpg",
     "img-03.jpg",
     "img-04.jpg",
-    "img-05.jpg",
-    "img-06.jpg"
+    "img-00.jpg",
+    "img-07.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-00.jpg": "40% 60%",
+    "img-01.jpg": "45% 35%",
+    "img-02.jpg": "60% 30%",
+    "img-03.jpg": "60% 55%",
+    "img-04.jpg": "35% 30%",
+    "img-08.jpg": "55% 60%",
+    "img-09.jpg": "60% 55%",
+    "img-10.jpg": "40% 60%",
+    "img-11.jpg": "50% 60%",
+    "img-12.jpg": "50% 65%",
+    "img-15.jpg": "35% 30%",
+    "img-17.jpg": "45% 70%",
+    "img-18.jpg": "55% 45%",
+    "img-19.jpg": "60% 65%",
+    "img-20.jpg": "35% 55%",
+    "img-21.jpg": "35% 50%"
+  },
+  "design": {
+    "display": "inn",
+    "hero": "anchor",
+    "order": "rooms-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#6B3A2A",
